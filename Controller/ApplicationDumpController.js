@@ -53,3 +53,9 @@ exports.DumpAll = async (req, res) => {
 
 };
 
+
+async function writeStatus() {
+    const { stdout } = await exec(`cd Dump && cd ${date} && ls -l`);
+    console.log(stdout);
+}
+
