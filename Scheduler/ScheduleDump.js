@@ -1,16 +1,15 @@
 const schedule = require('node-schedule');
-
-exports.DumpDB = async (req, res) => {
+const { writeStatus, DumpAll } = require('../Controller/ApplicationDumpController');
+const moment = require("moment")
+exports.DumpApp = async (req, res) => {
     try {
-        await Promise.all[NoSQLDumpAll(), SQLDumpAll()]
-        console.log("Dumped");
-        res && res.json({ mess: "dumped" })
+        await Promise.resolve[await DumpAll(), await writeStatus()]
     } catch (error) {
-        res && res.json({ mess: "error", error })
+        console.log("error", error);
     }
-
 }
 
-schedule.scheduleJob("0 0 * * *", () => {
-    this.DumpDB()
+schedule.scheduleJob("47 0 * * *", () => {
+    console.log(`started scheduler at ${moment().format("MM-DD-YYYY HH-MM")}`);
+    this.DumpApp()
 })

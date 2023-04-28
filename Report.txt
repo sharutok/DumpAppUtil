@@ -1,0 +1,18 @@
+29-04-2023
+total 0
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 10.SalesForce_API
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 Backend
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 digiwca-backend
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 digiwca-frontend
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 falcon_test_certficate
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 fped_kiosk_backend
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 fped_kiosk_frontend
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 Frontend
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 migratio
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 mis_report_client
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 mis_report_server
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 ProductCertificateFrontend
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 ProductMatrixBackend
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 salesforce_bEND_API
+drwxr-xr-x 1 1049089 0 Apr 29 00:47 sanvad_2.0
+
