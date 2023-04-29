@@ -77,7 +77,7 @@ exports.writeStatus = async () => {
                 const replacements = {
                     date: date,
                     info: stdout,
-                    path: process.env.NODE_ENV === "production" ? "" : "D:\Projects\Utils-Dump Application\Dump"
+                    path: path.join(__dirname, "../Dump")
                 };
                 var htmlToSend = template(replacements);
 
